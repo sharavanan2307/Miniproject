@@ -14,14 +14,22 @@ Voice Alert: Provides audio feedback for each detected denomination.
 
 ## Requirements
 HARDWARE REQUIREMENTS 
+
 • Processor : Intel core processor 2.6.0 GHZ • RAM : 4 GB 
+
 • Hard disk : 160 GB 
+
 • Keyboard : Standard keyboard 
+
 • Monitor : 15-inch colour monitor 
+
 SOFTWARE REQUIREMENTS 
 • Server Side : Python 3.7.4(64-bit) or (32-bit)  
+
 • IDE : Pycharm 
+
 • Libraries : OpenCV, Tensorflow, KERAS
+
 • OS : Windows 10 64 –bit 
 
 ## System Architecture
@@ -58,7 +66,9 @@ This project serves as a foundation for future developments in assistive technol
 
 ## Articles published / References
 1.Wei Sun, Xiaorui Zhang, and Xiaozheng He, "Lightweight Image Classifier Using Dilated and Depthwise Separable Convolutions," Journal of Cloud Computing, 2020.
+
 2.Rushikesh Jadhav et al., "Currency Recognition using Machine Learning," IRJET, 2022.
+
 3.Park et al., "Deep Feature-Based Three-Stage Detection of Banknotes and Coins for Assisting Visually Impaired People," IEEE Access, 2020.
 
 
