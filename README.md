@@ -1,33 +1,38 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## Smart Denomination Recognition System for Visually Impaired Individuals
+This project focuses on developing a reliable denomination recognition system that empowers visually impaired individuals. Using image processing and machine learning techniques, this project aims to detect currency denominations accurately under various conditions to promote independence and financial security.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+The Denomination Recognition system assists visually impaired users by identifying different banknote denominations in real-time. The project tackles challenges such as lighting variations, currency design differences, and image noise. The system leverages image processing techniques to detect unique currency features and convert visual information into auditory alerts, enhancing accessibility.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+Image Acquisition: Captures images of currency through a camera interface.
+Edge Detection: Utilizes Canny edge detection to enhance currency feature boundaries.
+Pattern Recognition: Employs machine learning to identify unique patterns of each denomination.
+Real-World Adaptability: Handles different environmental conditions, including lighting variations and varying currency designs.
+Region of Interest (ROI) Masking: Reduces processing time by focusing on the relevant area of the captured image.
+Voice Alert: Provides audio feedback for each detected denomination.
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+HARDWARE REQUIREMENTS 
+• Processor : Intel core processor 2.6.0 GHZ • RAM : 4 GB 
+• Hard disk : 160 GB 
+• Keyboard : Standard keyboard 
+• Monitor : 15-inch colour monitor 
+SOFTWARE REQUIREMENTS 
+• Server Side : Python 3.7.4(64-bit) or (32-bit)  
+• IDE : Pycharm 
+• Libraries : OpenCV, Tensorflow, KERAS
+• OS : Windows 10 64 –bit 
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+Preprocessing: Converts images to grayscale and applies Gaussian blur to reduce noise.
+Edge Detection: Highlights currency edges using the Canny algorithm.
+ROI Selection: Focuses on the central region of the image where the currency is expected to be located.
+Pattern Recognition: Identifies denomination patterns through image classification algorithms.
+Voice Feedback: Announces the recognized denomination to the user.
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![system architecture](https://github.com/user-attachments/assets/c0e31a90-6878-4bfc-b4fb-a6643e20c2b8)
+
 
 
 ## Output
@@ -45,14 +50,16 @@ Note: These metrics can be customized based on your actual performance evaluatio
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
-
+Output Type: Voice alert and visual display of recognized denomination.
+Performance: Works effectively under typical indoor lighting conditions, with limitations in very low light.
+Strengths: Real-time detection, high accuracy, and improved financial independence.
+Limitations: Reduced accuracy in dim lighting and extremely complex currency designs.
 This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1.Wei Sun, Xiaorui Zhang, and Xiaozheng He, "Lightweight Image Classifier Using Dilated and Depthwise Separable Convolutions," Journal of Cloud Computing, 2020.
+2.Rushikesh Jadhav et al., "Currency Recognition using Machine Learning," IRJET, 2022.
+3.Park et al., "Deep Feature-Based Three-Stage Detection of Banknotes and Coins for Assisting Visually Impaired People," IEEE Access, 2020.
 
 
 
