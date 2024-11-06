@@ -43,9 +43,13 @@ Voice Feedback: Announces the recognized denomination to the user.
 
 ## Results and Impact
 Output Type: Voice alert and visual display of recognized denomination.
+
 Performance: Works effectively under typical indoor lighting conditions, with limitations in very low light.
+
 Strengths: Real-time detection, high accuracy, and improved financial independence.
+
 Limitations: Reduced accuracy in dim lighting and extremely complex currency designs.
+
 This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
 
 ## Articles published / References
