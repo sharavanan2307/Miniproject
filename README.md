@@ -249,6 +249,11 @@ if _name_ == "_main_":
     main_account_screen()
 ```
 
+## Output
+
+![WhatsApp Image 2024-12-21 at 08 34 12_7380acaf](https://github.com/user-attachments/assets/09ac4966-7751-47b2-bd2c-d91e24ef39c6)
+
+
 ## Results and Impact
 Output Type: Voice alert and visual display of recognized denomination.
 
